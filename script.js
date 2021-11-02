@@ -2,9 +2,9 @@
 // 90% time we consume PROMISES and not create PROMISES.
 // Using PROMISES
 // GET https://icanhazdadjoke.com/
-const jokes = document.querySelector("#joke");
-const jokeBtn = document.querySelector("#jokeBtn");
 
+// const jokes = document.querySelector("#joke");
+// const jokeBtn = document.querySelector("#jokeBtn");
 // const generateJokes = () => {
 //     const setHeader = {
 //         headers: {
@@ -26,6 +26,9 @@ const jokeBtn = document.querySelector("#jokeBtn");
 
 // Using Async Await : make promises complexity simple.
 // In function, syntax will be : async function() { };
+
+const jokes = document.querySelector("#joke");
+const jokeBtn = document.querySelector("#jokeBtn");
 const generateJokes = async () => {
     try {
         const setHeader = {
